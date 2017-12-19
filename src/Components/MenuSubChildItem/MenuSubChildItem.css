@@ -1,0 +1,32 @@
+.subChildMenuItem{
+    font-size: 16px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.subChildDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.subChildDropdownContent {
+    display: none;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.subChildDropdownContent .subChildDropdownItem {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.subChildDropdown:hover .subChildDropdownContent {
+    display: block;
+}

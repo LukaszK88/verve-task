@@ -1,0 +1,13 @@
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+}
+
+@media only screen and (max-width: 500px) {
+    .menuContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: gainsboro;
+    }
+}
