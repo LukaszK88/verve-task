@@ -7,9 +7,10 @@ You’ll need to have Node >= 6 on your machine.
 
 2. cd verve-task
 
-3. npm install (have a coffee..)
+3. npm install
 
-4. npm run start
+4. Due to CORS menu will not show locally, for workaround install https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en and enable cross-origin resource sharing.
 
-5. If browser will no open automaticly go to http://localhost:3000/
+5. npm run start
 
+6. If browser will no open automaticly go to http://localhost:3000/
